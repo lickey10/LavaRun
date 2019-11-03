@@ -42,7 +42,7 @@ public class TreasureChest : MonoBehaviour {
             Instantiate(Treasure, new Vector3(this.transform.position.x, this.transform.position.y + 5,this.transform.position.z), Quaternion.identity);
 
             var PointScript = gameObject.AddComponent<Point>();
-            PointScript.Point = 500;
+            PointScript.PointValue = 500;
 
             isOpen = true;
 

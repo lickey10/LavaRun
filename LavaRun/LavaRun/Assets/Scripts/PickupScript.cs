@@ -26,7 +26,7 @@ public class PickupScript : MonoBehaviour
         if (other.gameObject.tag.Equals("Pickup"))
         {
             var PointScript = gameObject.AddComponent<Point>();
-            PointScript.Point = 50;
+            PointScript.PointValue = 50;
 
             Destroy(other.gameObject);
 
